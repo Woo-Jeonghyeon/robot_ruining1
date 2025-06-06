@@ -1,0 +1,5 @@
+[console_scripts]
+fake_odom_node = picar_b2_base.fake_odom_node:main
+motor_node = picar_b2_base.motor_node:main
+steering_node = picar_b2_base.steering_node:main
+ultrasonic_node = picar_b2_base.ultrasonic_node:main

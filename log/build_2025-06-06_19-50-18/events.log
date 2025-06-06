@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000407] (-) JobUnselected: {'identifier': 'cartographer_ros'}
+[0.000668] (-) JobUnselected: {'identifier': 'cartographer_ros_msgs'}
+[0.000703] (-) JobUnselected: {'identifier': 'cartographer_rviz'}
+[0.000726] (-) JobUnselected: {'identifier': 'picar_b2_base'}
+[0.000750] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.001155] (-) EventReactorShutdown: {}

@@ -1,0 +1,103 @@
+[0.018s] Invoking command in '/home/jh/ros2_ws/build/cartographer_ros': AMENT_PREFIX_PATH=/home/jh/ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jh/ros2_ws/install/cartographer_ros_msgs:/home/jh/ros2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jh/ros2_ws/install/picar_b2_base:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/jh/ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jh/ros2_ws/install/cartographer_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jh/ros2_ws/src/cartographer_ros/cartographer_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jh/ros2_ws/install/cartographer_ros
+[0.118s] -- The C compiler identification is GNU 13.3.0
+[0.220s] -- The CXX compiler identification is GNU 13.3.0
+[0.247s] -- Detecting C compiler ABI info
+[0.408s] -- Detecting C compiler ABI info - done
+[0.423s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.423s] -- Detecting C compile features
+[0.424s] -- Detecting C compile features - done
+[0.438s] -- Detecting CXX compiler ABI info
+[0.613s] -- Detecting CXX compiler ABI info - done
+[0.630s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.630s] -- Detecting CXX compile features
+[0.631s] -- Detecting CXX compile features - done
+[0.634s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.857s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.977s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.032s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.228s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.229s] -- Found Threads: TRUE  
+[1.250s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.298s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.317s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.339s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.364s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.306s] -- Found AMD headers in: /usr/include/suitesparse
+[2.307s] -- Found AMD library: /usr/lib/aarch64-linux-gnu/libamd.so
+[2.308s] -- Found CAMD headers in: /usr/include/suitesparse
+[2.310s] -- Found CAMD library: /usr/lib/aarch64-linux-gnu/libcamd.so
+[2.311s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[2.312s] -- Found CCOLAMD library: /usr/lib/aarch64-linux-gnu/libccolamd.so
+[2.313s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[2.314s] -- Found CHOLMOD library: /usr/lib/aarch64-linux-gnu/libcholmod.so
+[2.315s] -- Found COLAMD headers in: /usr/include/suitesparse
+[2.317s] -- Found COLAMD library: /usr/lib/aarch64-linux-gnu/libcolamd.so
+[2.317s] -- Found SPQR headers in: /usr/include/suitesparse
+[2.319s] -- Found SPQR library: /usr/lib/aarch64-linux-gnu/libspqr.so
+[2.320s] -- Found Config headers in: /usr/include/suitesparse
+[2.321s] -- Found Config library: /usr/lib/aarch64-linux-gnu/libsuitesparseconfig.so
+[2.327s] -- Found Intel Thread Building Blocks (TBB) library (2021.11 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[2.327s] -- Looking for shm_open in rt
+[2.477s] -- Looking for shm_open in rt - found
+[2.477s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[2.490s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[2.491s] -- Found SuiteSparse: /usr/include/suitesparse (found suitable version "7.6.1", minimum required is "7.6.1") found components: AMD CAMD CCOLAMD CHOLMOD COLAMD SPQR Config 
+[2.505s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake
+[2.517s] -- Found required Ceres dependency: glog
+[2.518s] -- Found required Ceres dependency: gflags
+[2.520s] -- Found Ceres version: 2.2.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]
+[2.526s] -- Found cartographer_ros_msgs: 2.0.9003 (/home/jh/ros2_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake)
+[2.631s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.781s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+[2.793s] -- looking for PCL_COMMON
+[2.798s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[2.799s] -- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization  
+[2.803s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[2.918s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.925s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.099s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.127s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.162s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.457s] -- Found ros_environment: 4.2.1 (/opt/ros/jazzy/share/ros_environment/cmake)
+[3.461s] -- Found rosbag2_cpp: 0.26.7 (/opt/ros/jazzy/share/rosbag2_cpp/cmake)
+[3.523s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[3.531s] -- Found tf2: 0.36.10 (/opt/ros/jazzy/share/tf2/cmake)
+[3.542s] -- Found tf2_eigen: 0.36.10 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[3.791s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[3.816s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[3.870s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[3.871s] -- Checking for one of the modules 'cairo>=1.12.16'
+[4.164s] -- Configuring done (4.1s)
+[4.340s] -- Generating done (0.1s)
+[4.376s] -- Build files have been written to: /home/jh/ros2_ws/build/cartographer_ros
+[4.410s] Invoked command in '/home/jh/ros2_ws/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/jh/ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jh/ros2_ws/install/cartographer_ros_msgs:/home/jh/ros2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jh/ros2_ws/install/picar_b2_base:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/jh/ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jh/ros2_ws/install/cartographer_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/jh/ros2_ws/src/cartographer_ros/cartographer_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jh/ros2_ws/install/cartographer_ros
+[4.412s] Invoking command in '/home/jh/ros2_ws/build/cartographer_ros': AMENT_PREFIX_PATH=/home/jh/ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jh/ros2_ws/install/cartographer_ros_msgs:/home/jh/ros2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jh/ros2_ws/install/picar_b2_base:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/jh/ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jh/ros2_ws/install/cartographer_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jh/ros2_ws/build/cartographer_ros -- -j4 -l4
+[4.509s] [  8%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_constants.cpp.o[0m
+[4.510s] [  8%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/assets_writer.cpp.o[0m
+[4.510s] [  8%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/map_builder_bridge.cpp.o[0m
+[4.510s] [ 11%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/msg_conversion.cpp.o[0m
+[5.489s] [ 14%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node.cpp.o[0m
+[54.205s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[54.271s] compilation terminated.
+[54.281s] gmake[2]: *** [CMakeFiles/cartographer_ros.dir/build.make:104: CMakeFiles/cartographer_ros.dir/src/msg_conversion.cpp.o] Error 1
+[54.281s] gmake[2]: *** Waiting for unfinished jobs....
+[54.462s] In file included from [01m[K/opt/ros/jazzy/include/cartographer/transform/transform.h:26[m[K,
+[54.463s]                  from [01m[K/opt/ros/jazzy/include/cartographer/sensor/rangefinder_point.h:24[m[K,
+[54.464s]                  from [01m[K/opt/ros/jazzy/include/cartographer/sensor/point_cloud.h:24[m[K,
+[54.464s]                  from [01m[K/opt/ros/jazzy/include/cartographer/sensor/compressed_point_cloud.h:25[m[K,
+[54.464s]                  from [01m[K/opt/ros/jazzy/include/cartographer/sensor/range_data.h:21[m[K,
+[54.464s]                  from [01m[K/opt/ros/jazzy/include/cartographer/mapping/trajectory_node.h:27[m[K,
+[54.464s]                  from [01m[K/opt/ros/jazzy/include/cartographer/mapping/submaps.h:30[m[K,
+[54.465s]                  from [01m[K/opt/ros/jazzy/include/cartographer/mapping/pose_graph_interface.h:25[m[K,
+[54.465s]                  from [01m[K/opt/ros/jazzy/include/cartographer/mapping/map_builder_interface.h:29[m[K,
+[54.465s]                  from [01m[K/home/jh/ros2_ws/src/cartographer_ros/cartographer_ros/include/cartographer_ros/node.h:29[m[K,
+[54.465s]                  from [01m[K/home/jh/ros2_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:17[m[K:
+[54.475s] /opt/ros/jazzy/include/cartographer/transform/rigid_transform.h: In instantiation of ‘[01m[Kcartographer::transform::Rigid2<FloatType>::Rotation2D cartographer::transform::Rigid2<FloatType>::[01;32m[Krotation[m[K() const [35m[K[with FloatType = double; Rotation2D = Eigen::Rotation2D<double>][m[K[m[K’:
+[54.478s] [01m[K/opt/ros/jazzy/include/cartographer/transform/transform.h:113:45:[m[K   required from ‘[01m[Kcartographer::transform::Rigid3<FloatType> cartographer::transform::[01;32m[KEmbed3D[m[K(const Rigid2<FloatType>&) [35m[K[with T = double][m[K[m[K’
+[54.479s] [01m[K/home/jh/ros2_ws/src/cartographer_ros/cartographer_ros/src/node.cpp:306:41:[m[K   required from here
+[54.479s] [01m[K/opt/ros/jazzy/include/cartographer/transform/rigid_transform.h:68:14:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[KEigen::Rotation2D<double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+[54.479s]    68 |   Rotation2D [01;36m[Krotation[m[K() const { return rotation_; }
+[54.479s]       |              [01;36m[K^~~~~~~~[m[K
+[97.059s] gmake[1]: *** [CMakeFiles/Makefile2:151: CMakeFiles/cartographer_ros.dir/all] Error 2
+[97.070s] gmake: *** [Makefile:146: all] Error 2
+[97.444s] Invoked command in '/home/jh/ros2_ws/build/cartographer_ros' returned '2': AMENT_PREFIX_PATH=/home/jh/ros2_ws/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jh/ros2_ws/install/cartographer_ros_msgs:/home/jh/ros2_ws/install/rplidar_ros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/jh/ros2_ws/install/picar_b2_base:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/jh/ros2_ws/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jh/ros2_ws/install/cartographer_ros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jh/ros2_ws/build/cartographer_ros -- -j4 -l4

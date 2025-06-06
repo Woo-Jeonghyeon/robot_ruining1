@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.000467] (picar_b2_base) JobQueued: {'identifier': 'picar_b2_base', 'dependencies': OrderedDict()}
+[0.001792] (picar_b2_base) JobStarted: {'identifier': 'picar_b2_base'}
+[0.099557] (-) TimerEvent: {}
+[0.200077] (-) TimerEvent: {}
+[0.300535] (-) TimerEvent: {}
+[0.401085] (-) TimerEvent: {}
+[0.501487] (-) TimerEvent: {}
+[0.602091] (-) TimerEvent: {}
+[0.702873] (-) TimerEvent: {}
+[0.803374] (-) TimerEvent: {}
+[0.903752] (-) TimerEvent: {}
+[1.007632] (-) TimerEvent: {}
+[1.109203] (-) TimerEvent: {}
+[1.209715] (-) TimerEvent: {}
+[1.310361] (-) TimerEvent: {}
+[1.410889] (-) TimerEvent: {}
+[1.512145] (-) TimerEvent: {}
+[1.612999] (-) TimerEvent: {}
+[1.713429] (-) TimerEvent: {}
+[1.814536] (-) TimerEvent: {}
+[1.915029] (-) TimerEvent: {}
+[2.015394] (-) TimerEvent: {}
+[2.115712] (-) TimerEvent: {}
+[2.216177] (-) TimerEvent: {}
+[2.316614] (-) TimerEvent: {}
+[2.417191] (-) TimerEvent: {}
+[2.520363] (-) TimerEvent: {}
+[2.620763] (-) TimerEvent: {}
+[2.721351] (-) TimerEvent: {}
+[2.821960] (-) TimerEvent: {}
+[2.923024] (-) TimerEvent: {}
+[3.023634] (-) TimerEvent: {}
+[3.124267] (-) TimerEvent: {}
+[3.222503] (picar_b2_base) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/picar_b2_base', 'build', '--build-base', '/home/jh/ros2_ws/build/picar_b2_base/build', 'install', '--record', '/home/jh/ros2_ws/build/picar_b2_base/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jh/ros2_ws/src/picar_b2_base', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jh', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/jh', 'OLDPWD': '/home/jh/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2172', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/jh/ros2_ws', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/jh/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jhRPi:@/tmp/.ICE-unix/2130,unix/jhRPi:/tmp/.ICE-unix/2130', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c9c841cf_f411_429a_880d_05f7934597ea', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.NF8E72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.186', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/jh/ros2_ws/build/picar_b2_base', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jh/ros2_ws/build/picar_b2_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jh/ros2_ws/install/picar_b2_base/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.224438] (-) TimerEvent: {}
+[3.324871] (-) TimerEvent: {}
+[3.425409] (-) TimerEvent: {}
+[3.525718] (-) TimerEvent: {}
+[3.626047] (-) TimerEvent: {}
+[3.726470] (-) TimerEvent: {}
+[3.822330] (picar_b2_base) StdoutLine: {'line': b'running egg_info\n'}
+[3.822810] (picar_b2_base) StdoutLine: {'line': b'creating ../../build/picar_b2_base/picar_b2_base.egg-info\n'}
+[3.826565] (-) TimerEvent: {}
+[3.871721] (picar_b2_base) StdoutLine: {'line': b'writing ../../build/picar_b2_base/picar_b2_base.egg-info/PKG-INFO\n'}
+[3.872508] (picar_b2_base) StdoutLine: {'line': b'writing dependency_links to ../../build/picar_b2_base/picar_b2_base.egg-info/dependency_links.txt\n'}
+[3.872910] (picar_b2_base) StdoutLine: {'line': b'writing requirements to ../../build/picar_b2_base/picar_b2_base.egg-info/requires.txt\n'}
+[3.873145] (picar_b2_base) StdoutLine: {'line': b'writing top-level names to ../../build/picar_b2_base/picar_b2_base.egg-info/top_level.txt\n'}
+[3.873301] (picar_b2_base) StdoutLine: {'line': b"writing manifest file '../../build/picar_b2_base/picar_b2_base.egg-info/SOURCES.txt'\n"}
+[3.926665] (-) TimerEvent: {}
+[3.959158] (picar_b2_base) StdoutLine: {'line': b"reading manifest file '../../build/picar_b2_base/picar_b2_base.egg-info/SOURCES.txt'\n"}
+[3.970526] (picar_b2_base) StdoutLine: {'line': b"writing manifest file '../../build/picar_b2_base/picar_b2_base.egg-info/SOURCES.txt'\n"}
+[3.977297] (picar_b2_base) StdoutLine: {'line': b'running build\n'}
+[3.981914] (picar_b2_base) StdoutLine: {'line': b'running build_py\n'}
+[3.983842] (picar_b2_base) StdoutLine: {'line': b'creating /home/jh/ros2_ws/build/picar_b2_base/build\n'}
+[3.984401] (picar_b2_base) StdoutLine: {'line': b'creating /home/jh/ros2_ws/build/picar_b2_base/build/lib\n'}
+[3.984619] (picar_b2_base) StdoutLine: {'line': b'creating /home/jh/ros2_ws/build/picar_b2_base/build/lib/picar_b2_base\n'}
+[3.984800] (picar_b2_base) StdoutLine: {'line': b'copying picar_b2_base/__init__.py -> /home/jh/ros2_ws/build/picar_b2_base/build/lib/picar_b2_base\n'}
+[3.984980] (picar_b2_base) StdoutLine: {'line': b'running install\n'}
+[3.998874] (picar_b2_base) StdoutLine: {'line': b'running install_lib\n'}
+[4.027526] (-) TimerEvent: {}
+[4.039874] (picar_b2_base) StdoutLine: {'line': b'creating /home/jh/ros2_ws/install/picar_b2_base/lib/python3.12/site-packages/picar_b2_base\n'}
+[4.040307] (picar_b2_base) StdoutLine: {'line': b'copying /home/jh/ros2_ws/build/picar_b2_base/build/lib/picar_b2_base/__init__.py -> /home/jh/ros2_ws/install/picar_b2_base/lib/python3.12/site-packages/picar_b2_base\n'}
+[4.043295] (picar_b2_base) StdoutLine: {'line': b'byte-compiling /home/jh/ros2_ws/install/picar_b2_base/lib/python3.12/site-packages/picar_b2_base/__init__.py to __init__.cpython-312.pyc\n'}
+[4.045179] (picar_b2_base) StdoutLine: {'line': b'running install_data\n'}
+[4.045799] (picar_b2_base) StdoutLine: {'line': b'creating /home/jh/ros2_ws/install/picar_b2_base/share/ament_index\n'}
+[4.046115] (picar_b2_base) StdoutLine: {'line': b'creating /home/jh/ros2_ws/install/picar_b2_base/share/ament_index/resource_index\n'}
+[4.046433] (picar_b2_base) StdoutLine: {'line': b'creating /home/jh/ros2_ws/install/picar_b2_base/share/ament_index/resource_index/packages\n'}
+[4.046597] (picar_b2_base) StdoutLine: {'line': b'copying resource/picar_b2_base -> /home/jh/ros2_ws/install/picar_b2_base/share/ament_index/resource_index/packages\n'}
+[4.046829] (picar_b2_base) StdoutLine: {'line': b'copying package.xml -> /home/jh/ros2_ws/install/picar_b2_base/share/picar_b2_base\n'}
+[4.047002] (picar_b2_base) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.098615] (picar_b2_base) StdoutLine: {'line': b'Copying ../../build/picar_b2_base/picar_b2_base.egg-info to /home/jh/ros2_ws/install/picar_b2_base/lib/python3.12/site-packages/picar_b2_base-0.0.0-py3.12.egg-info\n'}
+[4.102030] (picar_b2_base) StdoutLine: {'line': b'running install_scripts\n'}
+[4.127678] (-) TimerEvent: {}
+[4.230350] (-) TimerEvent: {}
+[4.330724] (-) TimerEvent: {}
+[4.415129] (picar_b2_base) StdoutLine: {'line': b"writing list of installed files to '/home/jh/ros2_ws/build/picar_b2_base/install.log'\n"}
+[4.430873] (-) TimerEvent: {}
+[4.531458] (-) TimerEvent: {}
+[4.546099] (picar_b2_base) CommandEnded: {'returncode': 0}
+[4.593143] (picar_b2_base) JobEnded: {'identifier': 'picar_b2_base', 'rc': 0}
+[4.594363] (-) EventReactorShutdown: {}

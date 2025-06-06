@@ -1,0 +1,32 @@
+[3.221s] Invoking command in '/home/jh/ros2_ws/src/picar_b2_base': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jh/ros2_ws/build/picar_b2_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jh/ros2_ws/install/picar_b2_base/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/picar_b2_base build --build-base /home/jh/ros2_ws/build/picar_b2_base/build install --record /home/jh/ros2_ws/build/picar_b2_base/install.log --single-version-externally-managed install_data
+[3.820s] running egg_info
+[3.820s] creating ../../build/picar_b2_base/picar_b2_base.egg-info
+[3.869s] writing ../../build/picar_b2_base/picar_b2_base.egg-info/PKG-INFO
+[3.870s] writing dependency_links to ../../build/picar_b2_base/picar_b2_base.egg-info/dependency_links.txt
+[3.870s] writing requirements to ../../build/picar_b2_base/picar_b2_base.egg-info/requires.txt
+[3.870s] writing top-level names to ../../build/picar_b2_base/picar_b2_base.egg-info/top_level.txt
+[3.871s] writing manifest file '../../build/picar_b2_base/picar_b2_base.egg-info/SOURCES.txt'
+[3.968s] reading manifest file '../../build/picar_b2_base/picar_b2_base.egg-info/SOURCES.txt'
+[3.968s] writing manifest file '../../build/picar_b2_base/picar_b2_base.egg-info/SOURCES.txt'
+[3.979s] running build
+[3.980s] running build_py
+[3.981s] creating /home/jh/ros2_ws/build/picar_b2_base/build
+[3.982s] creating /home/jh/ros2_ws/build/picar_b2_base/build/lib
+[3.982s] creating /home/jh/ros2_ws/build/picar_b2_base/build/lib/picar_b2_base
+[3.982s] copying picar_b2_base/__init__.py -> /home/jh/ros2_ws/build/picar_b2_base/build/lib/picar_b2_base
+[3.982s] running install
+[3.996s] running install_lib
+[4.037s] creating /home/jh/ros2_ws/install/picar_b2_base/lib/python3.12/site-packages/picar_b2_base
+[4.038s] copying /home/jh/ros2_ws/build/picar_b2_base/build/lib/picar_b2_base/__init__.py -> /home/jh/ros2_ws/install/picar_b2_base/lib/python3.12/site-packages/picar_b2_base
+[4.041s] byte-compiling /home/jh/ros2_ws/install/picar_b2_base/lib/python3.12/site-packages/picar_b2_base/__init__.py to __init__.cpython-312.pyc
+[4.043s] running install_data
+[4.043s] creating /home/jh/ros2_ws/install/picar_b2_base/share/ament_index
+[4.044s] creating /home/jh/ros2_ws/install/picar_b2_base/share/ament_index/resource_index
+[4.044s] creating /home/jh/ros2_ws/install/picar_b2_base/share/ament_index/resource_index/packages
+[4.044s] copying resource/picar_b2_base -> /home/jh/ros2_ws/install/picar_b2_base/share/ament_index/resource_index/packages
+[4.044s] copying package.xml -> /home/jh/ros2_ws/install/picar_b2_base/share/picar_b2_base
+[4.044s] running install_egg_info
+[4.096s] Copying ../../build/picar_b2_base/picar_b2_base.egg-info to /home/jh/ros2_ws/install/picar_b2_base/lib/python3.12/site-packages/picar_b2_base-0.0.0-py3.12.egg-info
+[4.100s] running install_scripts
+[4.413s] writing list of installed files to '/home/jh/ros2_ws/build/picar_b2_base/install.log'
+[4.544s] Invoked command in '/home/jh/ros2_ws/src/picar_b2_base' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jh/ros2_ws/build/picar_b2_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jh/ros2_ws/install/picar_b2_base/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/picar_b2_base build --build-base /home/jh/ros2_ws/build/picar_b2_base/build install --record /home/jh/ros2_ws/build/picar_b2_base/install.log --single-version-externally-managed install_data

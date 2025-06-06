@@ -1,0 +1,19 @@
+[3.162s] Invoking command in '/home/jh/ros2_ws/build/picar_b2_base': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jh/ros2_ws/build/picar_b2_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jh/ros2_ws/install/picar_b2_base/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jh/ros2_ws/build/picar_b2_base/build --no-deps symlink_data
+[3.693s] running develop
+[4.007s] running egg_info
+[4.045s] writing picar_b2_base.egg-info/PKG-INFO
+[4.045s] writing dependency_links to picar_b2_base.egg-info/dependency_links.txt
+[4.047s] writing entry points to picar_b2_base.egg-info/entry_points.txt
+[4.048s] writing requirements to picar_b2_base.egg-info/requires.txt
+[4.048s] writing top-level names to picar_b2_base.egg-info/top_level.txt
+[4.108s] reading manifest file 'picar_b2_base.egg-info/SOURCES.txt'
+[4.110s] writing manifest file 'picar_b2_base.egg-info/SOURCES.txt'
+[4.145s] running build_ext
+[4.152s] Creating /home/jh/ros2_ws/install/picar_b2_base/lib/python3.12/site-packages/picar-b2-base.egg-link (link to .)
+[4.154s] Installing motor_node script to /home/jh/ros2_ws/install/picar_b2_base/lib/picar_b2_base
+[4.154s] Installing steering_node script to /home/jh/ros2_ws/install/picar_b2_base/lib/picar_b2_base
+[4.154s] 
+[4.154s] Installed /home/jh/ros2_ws/build/picar_b2_base
+[4.155s] running symlink_data
+[4.157s] symbolically linking /home/jh/ros2_ws/build/picar_b2_base/launch/picar_b2.launch.py -> /home/jh/ros2_ws/install/picar_b2_base/share/picar_b2_base
+[4.259s] Invoked command in '/home/jh/ros2_ws/build/picar_b2_base' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jh/ros2_ws/build/picar_b2_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jh/ros2_ws/install/picar_b2_base/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jh/ros2_ws/build/picar_b2_base/build --no-deps symlink_data

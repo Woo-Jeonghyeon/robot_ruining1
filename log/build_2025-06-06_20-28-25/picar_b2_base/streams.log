@@ -1,0 +1,21 @@
+[1.955s] Invoking command in '/home/jh/ros2_ws/build/picar_b2_base': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jh/ros2_ws/build/picar_b2_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jh/ros2_ws/install/picar_b2_base/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jh/ros2_ws/build/picar_b2_base/build --no-deps symlink_data
+[2.416s] running develop
+[2.695s] running egg_info
+[2.722s] writing picar_b2_base.egg-info/PKG-INFO
+[2.722s] writing dependency_links to picar_b2_base.egg-info/dependency_links.txt
+[2.724s] writing entry points to picar_b2_base.egg-info/entry_points.txt
+[2.725s] writing requirements to picar_b2_base.egg-info/requires.txt
+[2.727s] writing top-level names to picar_b2_base.egg-info/top_level.txt
+[2.784s] reading manifest file 'picar_b2_base.egg-info/SOURCES.txt'
+[2.785s] writing manifest file 'picar_b2_base.egg-info/SOURCES.txt'
+[2.815s] running build_ext
+[2.815s] Creating /home/jh/ros2_ws/install/picar_b2_base/lib/python3.12/site-packages/picar-b2-base.egg-link (link to .)
+[2.816s] Installing fake_odom_node script to /home/jh/ros2_ws/install/picar_b2_base/lib/picar_b2_base
+[2.816s] Installing motor_node script to /home/jh/ros2_ws/install/picar_b2_base/lib/picar_b2_base
+[2.816s] Installing steering_node script to /home/jh/ros2_ws/install/picar_b2_base/lib/picar_b2_base
+[2.816s] Installing ultrasonic_node script to /home/jh/ros2_ws/install/picar_b2_base/lib/picar_b2_base
+[2.818s] 
+[2.818s] Installed /home/jh/ros2_ws/build/picar_b2_base
+[2.819s] running symlink_data
+[2.819s] symbolically linking /home/jh/ros2_ws/build/picar_b2_base/launch/slam_cartographer.launch.py -> /home/jh/ros2_ws/install/picar_b2_base/share/picar_b2_base
+[2.904s] Invoked command in '/home/jh/ros2_ws/build/picar_b2_base' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jh/ros2_ws/build/picar_b2_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jh/ros2_ws/install/picar_b2_base/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jh/ros2_ws/build/picar_b2_base/build --no-deps symlink_data
