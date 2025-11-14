@@ -11,17 +11,17 @@ class ServoCtrl:
         self.i2c = busio.I2C(SCL, SDA)
         self.pca = PCA9685(self.i2c, address=address)
         self.pca.frequency = 50
-        self.servo = servo.Servo(self.pca.channels[self.channel], min_pulse=500, max_pulse=2500)
-        self.servo.angle = 57  # 초기 각도
+        self.servo = servo.Servo(self.pca.channels[self.channel], min_pulse=400, max_pulse=2700)
+        self.servo.angle = 90  # 초기 각도
 
     def moveInit(self):
-        self.servo.angle = 57
+        self.servo.angle = 90
 
     def moveAngle(self, channel, angle):
         if channel != self.channel:
-            self.servo = servo.Servo(self.pca.channels[channel], min_pulse=500, max_pulse=2500)
+            self.servo = servo.Servo(self.pca.channels[channel], min_pulse=400, max_pulse=2700)
             self.channel = channel
-        angle = max(min(angle, 180), 0)
+        angle = max(min(angle, 130), 50)
         self.servo.angle = angle
 
     def cleanup(self):

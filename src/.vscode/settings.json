@@ -8,5 +8,6 @@
         "/home/jh/ros2_ws/build/picar_b2_base",
         "/home/jh/ros2_ws/install/picar_b2_base/lib/python3.12/site-packages",
         "/opt/ros/jazzy/lib/python3.12/site-packages"
-    ]
+    ],
+    "ros.distro": "jazzy"
 }
