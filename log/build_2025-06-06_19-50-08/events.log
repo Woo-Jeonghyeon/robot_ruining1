@@ -1,9 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000398] (-) JobUnselected: {'identifier': 'cartographer_ros_msgs'}
-[0.000452] (-) JobUnselected: {'identifier': 'cartographer_rviz'}
-[0.000487] (-) JobUnselected: {'identifier': 'picar_b2_base'}
-[0.000521] (-) JobUnselected: {'identifier': 'rplidar_ros'}
-[0.000566] (cartographer_ros) JobQueued: {'identifier': 'cartographer_ros', 'dependencies': OrderedDict({'cartographer_ros_msgs': '/home/jh/ros2_ws/install/cartographer_ros_msgs'})}
-[0.001498] (cartographer_ros) JobStarted: {'identifier': 'cartographer_ros'}
-[0.035262] (cartographer_ros) JobEnded: {'identifier': 'cartographer_ros', 'rc': 1}
-[0.046311] (-) EventReactorShutdown: {}

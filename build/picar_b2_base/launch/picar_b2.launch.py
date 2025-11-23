@@ -1,1 +1,0 @@
-/home/jh/ros2_ws/src/picar_b2_base/launch/picar_b2.launch.py
