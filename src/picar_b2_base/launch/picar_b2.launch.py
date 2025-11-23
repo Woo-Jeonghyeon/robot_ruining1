@@ -26,5 +26,5 @@ def generate_launch_description():
             executable='fake_odom_node',
             name='fake_odom_node',
             output='screen'
-        )
+        ),
     ])

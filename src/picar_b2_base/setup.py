@@ -12,7 +12,8 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        (os.path.join('share', package_name), glob('launch/*.launch.py'))
+        (os.path.join('share', package_name), glob('launch/*.launch.py')),
+        ('share/picar_b2_base/urdf', ['urdf/picar_b2.urdf.xacro']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -27,6 +28,7 @@ setup(
             'steering_node = picar_b2_base.steering_node:main',
             'ultrasonic_node = picar_b2_base.ultrasonic_node:main',
             'fake_odom_node = picar_b2_base.fake_odom_node:main',
+            'scan_stamp_fixer = picar_b2_base.scan_stamp_fixer:main',
         ],
     },
 )
