@@ -1,50 +1,48 @@
 ros2_ws
-
 # Autonomous Mobile Manipulator Robot
 
-## 📖 Overview
+## Introduction
 
-This project was developed as a Capstone Design Project to integrate autonomous navigation and robotic manipulation into a single robotic platform.
+This project is a capstone design project focused on developing an autonomous mobile manipulator robot using ROS2 Humble.
 
-The system consists of a mobile robot driven by ROS2 Humble running on a Raspberry Pi 5 and an Arduino-based robotic manipulator. The objective was to develop a robot capable of autonomous movement while performing manipulation tasks through a robotic arm.
+The system integrates a mobile robot platform with an Arduino-based robotic arm using Raspberry Pi 5 as the main controller. The robot was designed to perform autonomous movement and robotic manipulation within a unified robotic system.
 
-By combining mobility and manipulation, the project demonstrates the fundamental concept of a mobile manipulator system used in service robots, logistics robots, and autonomous robotic platforms.
-
----
-
-## 🎯 Project Objectives
-
-- Develop an autonomous mobile robot platform
-- Integrate a robotic manipulator with a mobile base
-- Implement ROS2-based communication architecture
-- Perform coordinated navigation and manipulation tasks
-- Gain practical experience in robotic system integration
+Through this project, practical experience was gained in robotic system integration, ROS2 communication architecture, embedded control systems, and mobile manipulation technologies.
 
 ---
 
-## 🛠 Hardware
+## Main Features
 
+- ROS2 Humble-based robotic system
+- Autonomous mobile robot control
+- Arduino-based robotic arm control
+- Integration of mobile platform and manipulator
+- Real-time node communication and control
+- Sensor-based driving control
+
+---
+
+## System Configuration
+
+### Hardware
 - Raspberry Pi 5
 - Arduino-based Robotic Arm
 - Mobile Robot Chassis
 - DC Motors
-- Motor Drivers
+- Motor Driver
 - Battery System
-- Sensors for Navigation
+- Sensor Modules
 
----
-
-## 💻 Software
-
+### Software
 - ROS2 Humble
-- Ubuntu Linux
 - Python
 - C++
+- Ubuntu Linux
 - Arduino IDE
 
 ---
 
-## ⚙ System Architecture
+## System Architecture
 
 ```text
 Raspberry Pi 5 (ROS2 Humble)
@@ -59,3 +57,78 @@ Raspberry Pi 5 (ROS2 Humble)
          │
          ▼
    Robotic Manipulator
+```
+
+---
+
+## Project Objectives
+
+- Develop an autonomous mobile robot platform
+- Integrate a robotic arm with a mobile platform
+- Implement a ROS2-based communication system
+- Perform simultaneous navigation and manipulation tasks
+- Gain practical experience in robotic system integration
+
+---
+
+## Results
+
+- Successfully implemented autonomous mobile robot driving
+- Achieved robotic arm control
+- Integrated the mobile robot and manipulator system
+- Implemented a ROS2-based real-time communication system
+
+---
+
+## How to Use
+
+### 1. Clone Repository
+
+```bash
+git clone http://github.com/Woo-Jeonghyeon/robot_ruining1
+```
+
+### 2. Build ROS2 Workspace
+
+```bash
+colcon build
+source install/setup.bash
+```
+
+### 3. Run
+
+```bash
+ros2 launch <package_name> <launch_file>.launch.py
+```
+
+---
+
+## Project Images
+
+Project images and demonstration videos will be uploaded later.
+
+---
+
+## Future Improvements
+
+- SLAM-based autonomous navigation
+- Object recognition system
+- Camera-based vision system
+- Remote control system
+- Advanced path planning algorithms
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## Author
+
+Woo Jeonghyeon
+
+Mechanical Engineering
+
+Capstone Design Project
